@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Avenir Heavy";
+    src: url("/Fonts/Avenir-Heavy.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    font-family: "Avenir Heavy", Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(
+        to bottom,
+        rgb(11, 33, 74) 0%,
+        rgb(11, 33, 74) 50%,
+        rgb(237, 239, 245) 50%,
+        rgb(237, 239, 245) 100%
+    );
+}
