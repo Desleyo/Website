@@ -58,3 +58,13 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+footer img{
+    margin: .5em;
+    width: 3em;
+    height: 3em;
+}
+
+footer a{
+    text-decoration: none;
+}
