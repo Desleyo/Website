@@ -1,5 +1,5 @@
 .profile {
-    height: 50vh;
+    min-height: 50vh;
     background: rgb(11, 33, 74);
 
     display: flex;
@@ -8,13 +8,16 @@
     justify-content: flex-end;
 
     position: relative;
+
+    padding-bottom: 12rem;
+    box-sizing: border-box;
 }
 
 .profile-text {
     text-align: center;
-    position: relative;
     z-index: 1;
-    transform: translateY(-15rem);
+    transform: none;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -48,7 +51,7 @@ h2 {
 }
 
 .content {
-    height: 25vh;
+    min-height: 25vh;
     background: rgb(237, 239, 245);
 
     display: flex;
