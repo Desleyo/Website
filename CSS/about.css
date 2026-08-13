@@ -248,5 +248,20 @@
 
 .timeline-content p {
     margin: .4rem 0 0;
-    color: #252525;
+    color: #202020;
+}
+
+.achievement {
+    display: inline-block;
+
+    margin-top: 0.8rem;
+    padding: 0.35rem 0.8rem;
+
+    background: rgb(11, 33, 74);
+    color: white;
+
+    border-radius: 999px;
+
+    font-size: 0.9rem;
+    font-weight: 800;
 }
