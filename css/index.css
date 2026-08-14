@@ -66,3 +66,67 @@ h2 {
     max-width: 50vw;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: .15em;
+    }
+
+    .profile {
+        min-height: 40vh;
+        padding-bottom: 10rem;
+    }
+
+    .profile-pic {
+        width: 15em;
+        height: 15em;
+    }
+
+    .content {
+        padding: 10rem 2rem 0;
+    }
+
+    .content-text {
+        max-width: 75vw;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        letter-spacing: .1em;
+    }
+
+    .profile {
+        min-height: 40vh;
+        padding-bottom: 8rem;
+    }
+
+    .profile-text {
+        margin-bottom: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .profile-pic {
+        width: 12em;
+        height: 12em;
+    }
+
+    .content {
+        padding: 8rem 1.5rem 0;
+    }
+
+    .content-text {
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+}
