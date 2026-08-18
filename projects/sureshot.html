@@ -10,12 +10,161 @@
         content="The SureShot project page of Desley Oord's website"/>
 
         <link rel="stylesheet" href="/css/shared.css">
+        <link rel="stylesheet" href="/css/projects/projects-shared.css">
     </head>
 
     <body>
         <div id="header"></div>
 
-        
+        <section class="project-hero">
+            <img src="/media/projects/SureShot thumbnail.png" alt="SureShot thumbnail" class="project-hero-image">
+
+            <div class="project-title">
+                <h1>SureShot Website</h1>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="project-details">
+                <div class="detail">
+                    <span>Project</span>
+                    <strong>Website + CMS</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Role</span>
+                    <strong>Web Developer</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Team Size</span>
+                    <strong>3 people</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Duration</span>
+                    <strong>10 weeks</strong>
+                </div>
+            </div>
+
+            <div class="project-description">
+                <section>
+                    <h2>Context</h2>
+
+                    <p>
+                        During the second year of my Bachelor's program, two of my classmates and I were tasked with finding a company to create a website for. 
+                        Through a relative, we got into contact with SureShot and got the opportunity to create the new SureShot website. 
+                        The project required us to create a website based on the wishes of SureShot and we delivered on that. However, we did not want to just make a website. 
+                        We wanted a future-proof website that anyone at SureShot would be able to adjust at any given moment. 
+                        For this reason, we also created a CMS (content management system) from scratch. 
+                        Lastly, we took the responsibility of launching the website to make sure everything was running as it should.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Frontend</h2>
+
+                    <p>
+                        The website is made up of several pages: home, about, the brands, the tools, the kitchen, the team and jobs & contact. 
+                        The home page gives the reader a small introduction and contains a mosaic component that displays different brands that SureShot works with. 
+                        The about page explains the history of SureShot. The brand page displays a gallery that automatically shifts and links towards partners of SureShot. 
+                        The tools page gives insight into the tools used by SureShot. The kitchen page explains SureShot's product strategy. 
+                        The team page displays a picture of every employee within SureShot and their title. 
+                        Finally, the jobs & contact page allows readers to come into contact with SureShot and enables them to potentially land a job at SureShot.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Backend</h2>
+
+                    <p>
+                        SureShot does not have a team of developers, which means that we found it necessary to create a CMS, 
+                        to make sure no developers are needed to maintain the website. 
+                        This not only allows any employee within SureShot to edit the website, but also makes sure the website is not at risk of becoming outdated quickly. 
+                        Obviously, not everyone should be allowed to access the CMS, which is why it is not visible to readers and an account is needed to access it. 
+                        Accounts are also protected with two-factor authentication to protect the CMS even further. 
+                        Once an employee has logged in, they can select any page on the website and start editing it. 
+                        Every page is built using components, which makes it very easy to add and remove pieces of content. 
+                        Furthermore, every existing component may be edited, as well as the metadata of the page. 
+                        Lastly, to increase SEO (search engine optimization), the employees are forced to fill in information about, for example, images, which is then used 
+                        to fill in the alt text, meta title and meta description of the image.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>My Responsibilities</h2>
+
+                    <p>
+                        During the development of this website, I was mainly responsible for the accounts, the brands page, the individual brand page and the team page. 
+                        I used Microsoft Identity to create a custom environment where I can create accounts, 
+                        protect them with two-factor authentication and add important settings like resetting the password or changing the connected email address. 
+                        For the brands page, I created the gallery component which allows readers to click on any partner of SureShot and read about them. 
+                        To make sure that no unnecessary work was being done, the individual brand page is simply a template page that gets built based on the chosen partner. 
+                        Lastly, I created the team page and integrated it into the CMS 
+                        (the team page is the only page that was added later in the process and was not a base requirement from SureShot).
+                    </p>
+                </section>
+            </div>
+
+            <div class="website-link">
+                <a href="https://www.sure-shot.eu" target="_blank" rel="noopener noreferrer" class="website-button">Visit the website ↗</a>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Project Team</h2>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="/media/team/Natan.jpeg" alt="Natan den Hartog" class="team-photo">
+
+                    <div class="team-info">
+                        <h3>Natan den Hartog</h3>
+                        <p>Web Developer & Project Lead</p>
+
+                        <div class="team-links">
+                            <a href="https://www.linkedin.com/in/natan-den-hartog-829098254/" target="_blank" rel="noopener noreferrer">
+                                <img src="/media/links/Linkedin.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="/media/team/Ruben.png" alt="Ruben Seegers" class="team-photo" style="object-position: center 15%;">
+
+                    <div class="team-info">
+                        <h3>Ruben Seegers</h3>
+                        <p>Web Developer</p>
+
+                        <div class="team-links">
+                            <a href="https://rubenseegers.nl/" target="_blank" rel="noopener noreferrer">
+                                <img src="/media/links/Website.png" alt="Website">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="/media/profile/Profile.png" alt="Desley Oord" class="team-photo">
+
+                    <div class="team-info">
+                        <h3>Desley Oord</h3>
+                        <p>Web Developer</p>
+
+                        <div class="team-links">
+                            <a href="https://github.com/Desleyo" target="_blank" rel="noopener noreferrer">
+                                <img src="/media/links/Github.png" alt="ArtStation">
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/desleyoord/" target="_blank" rel="noopener noreferrer">
+                                <img src="/media/links/Linkedin.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div id="footer"></div>
 
